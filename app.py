@@ -31,11 +31,11 @@ h1, h2, h3, h4, h5, h6, [data-testid="stMetricValue"], [data-testid="stMetricLab
 }
 
 /* Inputs */
-input, textarea, select { color: #8B0000 !important; background-color: #2A3036 !important; }
-.stNumberInput input { color: #8B0000 !important; }
+input, textarea, select { color: #F1FFFE !important; background-color: #2A3036 !important; }
+.stNumberInput input { color: #F1FFFE !important; }
 
 /* Data editor tweaks */
-.stDataFrame, .stDataEditor { color: #8B0000 !important; }
+.stDataFrame, .stDataEditor { color: #F1FFFE !important; }
 
 /* AG Grid */
 .ag-root-wrapper, .ag-theme-streamlit-dark, .ag-theme-balham-dark {
@@ -302,7 +302,7 @@ with c2:
             hover_name="asset_name",
             template="plotly"
         )
-        fig.update_layout(paper_bgcolor="#1E2227", plot_bgcolor="#1E2227",
+        fig.update_layout(paper_bgcolor="#F1FFFE", plot_bgcolor="#F1FFFE",
                           font=dict(family="Inconsolata, monospace", color="#8B0000"))
         fig.update_xaxes(gridcolor="#3a4149", zeroline=False, title="PW-IRR (J)",
                          tickfont=dict(color="#8B0000"), title_font=dict(color="#8B0000"))
