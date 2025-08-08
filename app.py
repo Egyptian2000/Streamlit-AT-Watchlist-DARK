@@ -313,7 +313,7 @@ with c2:
     with tabs[1]:
         wcol = "Weight_Norm" if normalize_final else "Weight"
         fig2 = px.bar(plot_df.sort_values(wcol, ascending=False), x="asset_name", y=wcol, template="plotly")
-        fig2.update_layout(paper_bgcolor="#1E2227", plot_bgcolor="#1E2227",
+        fig2.update_layout(paper_bgcolor="#F1FFFE", plot_bgcolor="#F1FFFE",
                            font=dict(family="Inconsolata, monospace", color="#8B0000"),
                            xaxis_title="", yaxis_title=wcol)
         fig2.update_xaxes(tickangle=-30, gridcolor="#3a4149", tickfont=dict(color="#8B0000"))
