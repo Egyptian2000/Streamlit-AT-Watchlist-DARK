@@ -209,7 +209,7 @@ cases_edit = st.data_editor(
 )
 
 # Component weights (AC2..AM2)
-default_w = {c: (0.1 if c in ["AC_ShortFlags","AF_BizModel","AG_TopDown","AH_Competition","AK_Custom1","AL_Custom2"] else
+default_w = {c: (0.1 if c in ["AC_ShortFlags","AF_BizModel","AG_TopDown","AH_Zeba","AK_Custom1","AL_Custom2"] else
                  0.15 if c in ["AI_Industry"] else 0.05)
              for c in COMPONENT_COLS}
 if show_weights:
