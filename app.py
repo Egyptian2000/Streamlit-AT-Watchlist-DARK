@@ -40,7 +40,7 @@ input, textarea, select { color: #8B0000 !important; background-color: #2A3036 !
 /* AG Grid */
 .ag-root-wrapper, .ag-theme-streamlit-dark, .ag-theme-balham-dark {
   color: #8B0000 !important;
-  background-color: #1E2227 !important;
+  background-color: #F8DDFF !important;
 }
 .ag-header, .ag-header-cell, .ag-header-cell-label {
   color: #8B0000 !important;
