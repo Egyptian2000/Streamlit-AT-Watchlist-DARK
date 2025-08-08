@@ -18,9 +18,9 @@ st.markdown("""
 :root{ --up:#21c55d; --down:#ef4444; --grid:#3a4149; --muted:#a18f8f; --accent:#8B0000; }
 
 /* Backgrounds */
-html, body, [data-testid="stAppViewContainer"] { background-color: #1E2227; }
-[data-testid="stHeader"] { background-color: #1E2227; }
-[data-testid="stSidebar"] { background-color: #2A3036; border-right:1px solid var(--grid); }
+html, body, [data-testid="stAppViewContainer"] { background-color: #C8E4FC; }
+[data-testid="stHeader"] { background-color: #C8E4FC; }
+[data-testid="stSidebar"] { background-color: #C8E4FC; border-right:1px solid var(--grid); }
 
 /* Typography colors */
 body, p, span, div, label, .stText, .stMarkdown, .st-emotion-cache, .small,
